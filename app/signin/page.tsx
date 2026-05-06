@@ -1,5 +1,5 @@
 export default function SignInPage() {
-    console.log('SignInPage new test log added');
+    console.log('SignInPage new test log added testing');
     // sign in screen
     return (
         <main className="flex min-h-screen items-center justify-center bg-slate-100 p-4">
