@@ -23,6 +23,7 @@ export default function Home() {
                             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
                             className="font-medium text-zinc-950 dark:text-zinc-50"
                         >
+                            {/* sdfdfg g gd gdg d gdf g dg dg dg dfg df gdf g dfg dgf dfg dfg dfg dg f dgf dfg */}
                             Templates
                         </a>{' '}
                         or the{' '}
@@ -35,7 +36,7 @@ export default function Home() {
                         center.
                     </p>
                 </div>
-                {/* sdfdfg g gd gdg d gdf g dg dg dg dfg df gdf g dfg dgf dfg dfg dfg dg f dgf dfg */}
+
                 <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
                     <a
                         className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
@@ -43,6 +44,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
+                        {/* this is my first project using AI */}
                         <Image
                             className="dark:invert"
                             src="/vercel.svg"
@@ -51,6 +53,7 @@ export default function Home() {
                             height={16}
                         />
                         Deploy Now
+                        {/* doing testing */}
                     </a>
                     <a
                         className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
@@ -61,8 +64,6 @@ export default function Home() {
                         Documentation
                     </a>
                 </div>
-                {/* this is my first project using AI */}
-                {/* doing testing */}
             </main>
         </div>
     );
