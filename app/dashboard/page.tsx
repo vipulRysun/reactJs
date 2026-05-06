@@ -4,6 +4,8 @@ import { redirect } from 'next/navigation';
 const SESSION_VALUE = 'authenticated';
 
 export default async function DashboardPage() {
+    console.log('DashboardPage Testing for logs');
+
     const name = 'vipul';
     // Dashboard screen new test log added
     const cookieStore = await cookies();
