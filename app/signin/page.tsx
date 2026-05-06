@@ -1,5 +1,5 @@
 export default function SignInPage() {
-    console.log('SignInPage new test log');
+    console.log('SignInPage new test log added');
     // sign in screen
     return (
         <main className="flex min-h-screen items-center justify-center bg-slate-100 p-4">
@@ -22,7 +22,7 @@ export default function SignInPage() {
                             placeholder="you@example.com"
                         />
                     </div>
-                    {/* signin page new test comment */}
+                    {/* signin page new test comment added */}
                     <div>
                         <label htmlFor="password" className="mb-1 block text-sm font-medium text-slate-700">
                             Password
