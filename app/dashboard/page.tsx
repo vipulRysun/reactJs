@@ -4,12 +4,12 @@ import { redirect } from 'next/navigation';
 const SESSION_VALUE = 'authenticated';
 
 export default async function DashboardPage() {
-    // Dashboard screen new test log added
+    // Dashboard screen new test log added 1234
     const cookieStore = await cookies();
     const session = cookieStore.get('session');
 
     if (session?.value !== SESSION_VALUE) {
-        console.log('tested new file new test comment added');
+        console.log('tested new file new test comment added 1234');
         redirect('/signin');
     }
 
