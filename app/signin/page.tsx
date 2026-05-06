@@ -1,4 +1,7 @@
+import { useEffect, useState } from 'react';
+
 export default function SignInPage() {
+    useEffect(() => {});
     console.log('SignInPage new test log added testing 1234');
     // sign in screen
     return (
