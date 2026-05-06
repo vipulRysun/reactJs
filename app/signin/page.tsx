@@ -1,4 +1,8 @@
+import { useSearchParams } from 'next/navigation';
+import { useEffect } from 'react';
+
 export default function SignInPage() {
+    useEffect(() => {});
     console.log('SignInPage new test log added');
     // sign in screen
     return (
