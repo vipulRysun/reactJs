@@ -35,7 +35,7 @@ export default function Home() {
                         center.
                     </p>
                 </div>
-                {/* <Image></Image> */}
+                {/* sdfdfg g gd gdg d gdf g dg dg dg dfg df gdf g dfg dgf dfg dfg dfg dg f dgf dfg */}
                 <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
                     <a
                         className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
@@ -62,6 +62,7 @@ export default function Home() {
                     </a>
                 </div>
                 {/* this is my first project using AI */}
+                {/* doing testing */}
             </main>
         </div>
     );
