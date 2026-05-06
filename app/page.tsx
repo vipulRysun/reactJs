@@ -61,6 +61,7 @@ export default function Home() {
                         Documentation
                     </a>
                 </div>
+                {/* this is my first project using AI */}
             </main>
         </div>
     );
