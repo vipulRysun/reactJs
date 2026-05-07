@@ -1,4 +1,4 @@
-import { useSearchParams } from 'next/navigation';
+'use client';
 import { useEffect } from 'react';
 
 export default function SignInPage() {
