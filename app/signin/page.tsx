@@ -1,5 +1,9 @@
+'use client';
+import { useEffect } from 'react';
+
 export default function SignInPage() {
-    console.log('SignInPage new test log added');
+    useEffect(() => {});
+    console.log('SignInPage new test log added nww');
     // sign in screen
     return (
         <main className="flex min-h-screen items-center justify-center bg-slate-100 p-4">
@@ -22,7 +26,7 @@ export default function SignInPage() {
                             placeholder="you@example.com"
                         />
                     </div>
-                    {/* signin page new test comment added */}
+                    {/* signin page new test comment added  s*/}
                     <div>
                         <label htmlFor="password" className="mb-1 block text-sm font-medium text-slate-700">
                             Password
